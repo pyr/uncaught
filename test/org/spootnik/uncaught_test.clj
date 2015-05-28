@@ -6,8 +6,8 @@
             [org.spootnik.uncaught :refer :all]))
 
 (deftest caught-test
-  (let [queue  (ArrayBlockingQueue. 3)
-        tpe    (ThreadPoolExecutor. 3 3 1 TimeUnit/MINUTES queue)
+  (let [queue  (ArrayBlockingQueue. 4)
+        tpe    (ThreadPoolExecutor. 4 4 1 TimeUnit/MINUTES queue)
         p      (promise)
         errors (atom nil)]
     (testing "Catching uncaught exceptions"
@@ -16,5 +16,6 @@
       (.execute tpe (Thread. (fn [] (- nil 0))))
       (.execute tpe (Thread. (fn [] (- nil 0))))
       (.execute tpe (Thread. (fn [] (deliver p nil))))
+      (Thread/sleep 200)
       @p
       (is (= 3 (count @errors))))))
