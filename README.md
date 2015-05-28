@@ -14,6 +14,8 @@ Add the following depenency to your `project.clj` file:
 [org.spootnik/uncaught "0.5.1"]
 ```
 
+Up to date instructions and pointers to other build environement are available on [clojars](https://clojars.org/org.spootnik/uncaught)
+
 ## Documentation
 
 `(uncaught [e & body])`: When an uncaught exception is thrown, execute `body` while binding `e` to the exception.
