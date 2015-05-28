@@ -1,10 +1,10 @@
-uncaught: convenience macro for uncaught exceptions
-===================================================
+uncaught: handle uncaught exceptions with ease
+==============================================
 
 [![Build Status](https://secure.travis-ci.org/pyr/uncaught.png)](http://travis-ci.org/pyr/uncaught)
 
 Uncaught is a single macro namespace to provide
-a convenience macro for catching uncaught exceptions.
+a convenience macro for handling uncaught exceptions.
 
 ## Installation
 
