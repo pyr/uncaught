@@ -22,7 +22,7 @@ Add the following depenency to your `project.clj` file:
 
 ```clojure
 (uncaught e
-(warn e "uncaught exception"))
+  (warn e "uncaught exception"))
 ```
 
 ## Notes
