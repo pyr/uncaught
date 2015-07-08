@@ -1,9 +1,9 @@
-(ns org.spootnik.uncaught-test
+(ns spootnik.uncaught-test
   (:import java.util.concurrent.ThreadPoolExecutor
            java.util.concurrent.ArrayBlockingQueue
            java.util.concurrent.TimeUnit)
-  (:require [clojure.test          :refer :all]
-            [org.spootnik.uncaught :refer :all]))
+  (:require [clojure.test      :refer :all]
+            [spootnik.uncaught :refer :all]))
 
 (deftest caught-test
   (let [queue  (ArrayBlockingQueue. 4)

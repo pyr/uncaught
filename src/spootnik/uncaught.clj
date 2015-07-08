@@ -1,4 +1,4 @@
-(ns org.spootnik.uncaught
+(ns spootnik.uncaught
   "Namespace holding a single convenience macro: uncaught.")
 
 (defmacro uncaught

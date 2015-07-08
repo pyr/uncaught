@@ -11,10 +11,10 @@ a convenience macro for handling uncaught exceptions.
 Add the following depenency to your `project.clj` file:
 
 ```clojure
-[org.spootnik/uncaught "0.5.1"]
+[spootnik/uncaught "0.5.2"]
 ```
 
-Up to date instructions and pointers to other build environement are available on [clojars](https://clojars.org/org.spootnik/uncaught)
+Up to date instructions and pointers to other build environement are available on [clojars](https://clojars.org/spootnik/uncaught)
 
 ## Documentation
 
