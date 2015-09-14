@@ -1,5 +1,5 @@
-(defproject spootnik/uncaught "0.5.2"
-  :description "handle uncaught exceptions with ease"
+(defproject spootnik/uncaught "0.5.3"
+  :description "Handle uncaught exceptions with ease"
   :url "https://github.com/pyr/uncaught"
   :license {:name "MIT License"
             :url "https://github.com/pyr/uncaught/tree/master/LICENSE"}
