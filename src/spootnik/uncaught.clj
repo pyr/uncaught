@@ -7,7 +7,7 @@
   [e & body]
   `(Thread/setDefaultUncaughtExceptionHandler
     (reify Thread$UncaughtExceptionHandler
-      (uncaughtException [_ thread ~e]
+      (uncaughtException [_# thread# ~e]
         (do ~@body)))))
 
 (defmacro with-uncaught
@@ -16,5 +16,5 @@
   [e & body]
   `(Thread/setDefaultUncaughtExceptionHandler
     (reify Thread$UncaughtExceptionHandler
-      (uncaughtException [_ thread ~e]
+      (uncaughtException [_# thread# ~e]
         (do ~@body)))))
