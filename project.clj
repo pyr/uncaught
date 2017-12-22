@@ -1,4 +1,4 @@
-(defproject spootnik/uncaught "0.5.4"
+(defproject spootnik/uncaught "0.5.5"
   :description "Handle uncaught exceptions with ease"
   :url "https://github.com/pyr/uncaught"
   :license {:name "MIT License"
